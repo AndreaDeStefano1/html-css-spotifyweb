@@ -69,6 +69,10 @@
   width: 80%;
   margin: auto;
 }
+.menu-container{
+  width: 90%;
+  margin: auto;
+}
 
 .clearfix::after{
   content: '';
