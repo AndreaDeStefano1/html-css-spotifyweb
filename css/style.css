@@ -2,6 +2,7 @@
 
 main{
   height: calc(100vh - 100px);
+  background-color: rgb(20, 25, 34);
 }
 
 /* LEFT MENU */
@@ -32,8 +33,32 @@ main{
 }
 .card{
   min-width: 100px;
+  width: calc(100% / 6);
+  text-align: center;
 }
-
+.right-container h2{
+  color: white;
+  padding: 10px 5px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.right-container h3{
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.right-container h4{
+  color: rgb(87, 91, 97);
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+.right-container img{
+  width: 100%;
+}
+.gallery{
+  margin: 5px;
+  gap: 5px;
+}
 
 /* upgrade */
 
@@ -41,13 +66,30 @@ main{
   position: fixed;
   width: calc(100% - 15%);
   text-align: right;
-  z-index: 998;  
+  z-index: 998; 
+  padding: 29.5px 5px 29.5px; 
+  background-color: rgba(8, 11, 18, .8);
+}
+.upgrade .btn{
+  border-radius: 20px;
+  border: 2px solid rgb(170, 171, 174);
+  background-color: transparent;
+  color: white;
 }
 
 /* nav */
 
 nav{
   margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 15px;
+  font-weight: bold;
+  color: rgb(87, 91, 97);
+  cursor: pointer;
 }
 
 /* recently-played */
