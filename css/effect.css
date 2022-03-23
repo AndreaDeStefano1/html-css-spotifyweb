@@ -1,3 +1,32 @@
+/* sidebar */
+
+.top ul .active {
+  color: white;
+  border-left: 3px solid green;
+  
+}
+li :hover{
+  color: white;
+  cursor: pointer;
+}
+.install :hover{
+  color: white;
+  cursor: pointer;
+}
+
+/* nav */
+nav ul li :hover{
+  color: white;
+}
+.line.active{
+  display: block;
+}
+/* upgrade */
+
+.upgrade .btn:hover{
+  transform: scale(1.2);
+}
+
 /* card */
 
 .hovercard{
@@ -24,19 +53,27 @@
   filter: brightness(.5);
 }
 
-/* sidebar */
+/* meter */
 
-.top ul .active {
-  color: white;
-  border-left: 3px solid green;
-  
+.meter:hover > .advance{
+  background-color: green;
+  position: relative;
 }
-li :hover{
+.meter:hover .cursor{
+  display: block;
+}
+/* left footer */
+.add-to i:hover{
   color: white;
   cursor: pointer;
 }
-.install :hover{
+.title h4:hover{
+  text-decoration: underline;
   color: white;
   cursor: pointer;
 }
+/* center footer */
 
+.controller .fa-circle-play:hover{
+  transform: scale(1.2);
+}
