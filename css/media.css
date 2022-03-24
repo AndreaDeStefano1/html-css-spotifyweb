@@ -1,0 +1,138 @@
+@media screen and (max-width: 1024px){
+  .right-container{
+    overflow-x: hidden;
+  }
+  .gallery{
+    flex-wrap: wrap;
+  }
+  .card{
+    width: calc(100% / 4 - 20px);
+  }
+}
+
+/* layout s */
+
+@media screen and (max-width: 768px){
+  .right-container{
+    overflow-x: hidden;
+  }
+  .gallery{
+    flex-wrap: wrap;
+  }
+  .card{
+    width: calc(100% / 2 - 20px);
+  }
+  nav ul li {
+    padding: 10px 0;
+  }
+  .left-f-menu i{
+    margin-left: 5px;
+  }
+  .center-f-menu .controller i{
+    margin: 0 5px;
+  }
+}
+
+/* layout xs */
+
+@media screen and (max-width: 618px){
+
+  .left-menu{
+    display: none;
+  }
+  .left-menu-xs{
+    display: block;
+    justify-content: space-between;
+  }
+
+  .right-container{
+    width: calc(100% - 70px);
+  }
+  .upgrade{
+    width: calc(100% - 70px);
+  }
+  .top-container {
+    height: calc(100% - 110px );
+  }
+  .install {
+
+    text-align: center;
+  }
+  .profile .image {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(123, 123, 123);
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  .menu-container {
+    width: 74%;
+    margin: auto;
+    padding: 0 ;
+    text-align: center;
+  }
+  .left-f-menu{
+    height: 100%;
+    align-items: center;
+  
+  }
+  .left-f-menu .cover-small{
+    padding: 0 15px;
+  }
+  .left-f-menu img{
+    width: 30px; 
+  }
+  .left-f-menu .title{
+    color: white;
+    font-size: bold;
+    font-size: 12px;
+  }
+  .left-f-menu .title h4{
+    font-size: 10px;
+    color: rgb(87, 91, 97);
+  }
+  .left-f-menu i{
+    margin-left: 15px;
+    margin-top: 3px;
+    color: rgb(87, 91, 97);
+    font-size: 15px;
+    display: block;
+  }
+  
+  /* footer center top */
+  
+  .center-f-menu{
+    width: 30%;
+  }
+  .center-f-menu .controller{
+    height: 50%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;  
+  }
+  .center-f-menu .controller i{
+    margin: 0 5px;
+    font-size: 15px;
+  }
+  .center-f-menu .controller .fa-circle-play{
+    font-size: 20px;
+  }
+
+  
+  /* footer right */
+  
+  .right-f-menu {
+    width: 30%;
+    padding: 10px; 
+  }
+  .right-f-menu i{
+    font-size: 10px;
+  }
+  .time{
+    font-size: 13px;
+  }
+
+}

@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="css/utils.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/effect.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Spotify Web</title>
 </head>
 
 <body>
@@ -20,7 +22,7 @@
   <main class=" clearfix">
     <!-- LEFT MENU -->
     <div class="left-menu d-flex float-sx">
-      <div class="top-container">
+      <div class="top-container d-flex">
         <div class="logo ">
           <div class="menu-container">
             <img src="img/logo.svg" alt="">
@@ -35,10 +37,10 @@
           </ul>
         </div>
 
-        <div class="center  ">          
+        <div class="center d-flex ">          
           <h2>PLAYLIST</h2>
-          <ul>
-            <li><span><i class="fa-solid fa-square-plus"></i> Crea Playlist</span></li>
+          <span><i class="fa-solid fa-square-plus"></i> Crea Playlist</span>
+          <ul>           
             <li><span>Nome Playlist</span> </li>
             <li><span>Nome Playlist</span> </li>
             <li><span>Nome Playlist</span> </li>
@@ -50,18 +52,55 @@
           </ul>>
         </div>
 
+        <div class="bottom  ">
+          <div class="menu-container">
+            <div class="install">
+              <i class="fa-regular fa-circle-down"></i>  <span>Installa app</span> 
+            </div>
+            <div class="profile">
+              <div class="image">
+                <img src="img/profile.svg" alt="">              
+              </div>
+              <span>Jhon Doe </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+
+
+    </div>
+
+    <div class=" left-menu-xs d-flex float-sx">
+      <div class="top-container d-flex">
+        <div class="logo ">
+          <div class="menu-container">
+            <img src="img/logo-small.svg" alt="">
+          </div>        
+        </div>
+        <div class="top  ">          
+          <ul>
+            <li class="active"><span><img src="img/home.svg" alt=""></span></li>
+            <li><span><img src="img/search.svg" alt=""></span></li>
+            <li><span><img src="img/libreria.svg" alt=""></span></li>
+          </ul>
+        </div>
+
+
+
+
       </div>
       
       <div class="bottom  ">
         <div class="menu-container">
           <div class="install">
-            <i class="fa-regular fa-circle-down"></i>  <span>Installa app</span> 
+            <i class="fa-regular fa-circle-down"></i>   
           </div>
           <div class="profile">
             <div class="image">
               <img src="img/profile.svg" alt="">              
             </div>
-            <span>Jhon Doe </span>
           </div>
         </div>
       </div>

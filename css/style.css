@@ -8,7 +8,12 @@ main{
 }
 
 /* LEFT MENU */
-
+.left-menu-xs{
+  display: none;
+  width: 70px;
+  background-color: rgb(0, 0, 0);
+  height: calc(100vh - 100px);
+}
 .left-menu{
   width: 288px;
   height: calc(100vh - 100px);
@@ -32,7 +37,8 @@ main{
 
 /* top (menu) */
 .top-container{
-  height: calc(100% - 100px);
+  height: calc(100% );
+  flex-direction: column;
 }
 .top ul{
   margin-top: 30px;
@@ -52,6 +58,8 @@ main{
 
 .center{
   padding-top: 30px;
+  flex-grow: 1;
+  flex-direction: column;
   overflow-y: auto;
 }
 .center h2{
@@ -66,11 +74,17 @@ main{
 .center ul{
   color: rgb(163, 163, 163);
   font-weight: 700;
+  min-height: 50px;
+  overflow-y: auto;
 }
 .center li{
   vertical-align: middle;
+  padding: 10px 20px;  
+}
+.center>span{
   padding: 10px 20px;
-  
+  color: rgb(163, 163, 163);
+  font-weight: 700;
 }
 
 /* bottom (profile) */
@@ -119,10 +133,10 @@ main{
 }
 
 .card{
-  min-width: 100px;
+  
   width: calc(100% / 6 - 20px);
   text-align: center;
-  flex-shrink: 0;
+  
 }
 .card-image{
   position: relative;
@@ -238,7 +252,6 @@ footer{
   width: 55px; 
 }
 .left-f-menu .title{
-  padding-right: 40px;
   color: white;
   font-size: bold;
 }
@@ -280,7 +293,8 @@ footer{
 .center-f-menu .time-bar{
   height: 50%;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 0 10px;
   color: white;
   font-weight: 600;
   padding-bottom: 10px;
